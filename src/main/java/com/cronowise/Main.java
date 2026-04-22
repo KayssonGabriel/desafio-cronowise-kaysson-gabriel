@@ -43,7 +43,7 @@ public class Main {
 
         List<Integer> resultadoAlertas = anomaliaService.verificarAlertas(tempos);
 
-        System.out.println("Saída esperada : [3, 7]"); // [cite: 46]
+        System.out.println("Saída esperada : [3, 7]");
         System.out.println("Saída do sistema : " + resultadoAlertas);
         System.out.println("========================================");
     }
